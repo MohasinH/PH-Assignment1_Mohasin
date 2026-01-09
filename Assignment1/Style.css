@@ -1,0 +1,191 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+
+}
+nav li:hover{
+    background-color: #30b868;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.hero{
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+div{
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+.break-line{
+    display: block;
+}
+.color1{
+    color: white;
+}
+.color2{
+    color: #30b868;
+}
+.button-container{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.button1{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
+.button2{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
+.button1:hover{
+    background-color: #30b868;
+}
+.button2:hover{
+    background-color: #30b868;
+}
+section main{
+    text-align: center;
+    font-size: x-large;
+    font-style: bold;
+}
+section main p{
+    font-size: 15px;
+}
+.card container{
+    width: 180px;
+    border: 2px solid brown;
+    padding: 10px;
+    background-color: gray;
+    font-size: smaller;
+}
+.card img{
+    width: 10%;
+    background-color: red;  
+}
+.card:hover{
+    background-color: darkcyan;
+}
+.cards{
+    display: flex;
+    background-color: burlywood;
+}
+.knowledge{
+    display: flex;
+}
+.knowledge-img{
+    width: 500px;
+    margin-right: 20px;
+}
+.content{
+    background-color: bisque;
+    width: 800px;
+    margin-left: 0;
+}
+.content p{
+    font-size: 18px;
+    color: black;
+}
+.content h3{
+    color: black;
+}
+.content li{
+    color: black;
+    font-size: 20px;
+    list-style: none;
+}
+.content{
+    text-align: left;
+}
+.early-access{
+    border: 1px solid blanchedalmond;
+    text-align: center;
+    padding: 40px;
+    border-radius: 12px;
+    width: 500px;
+    margin: 80px auto;
+    background-color: antiquewhite;
+}
+.early-access button{
+    background-color: #30b868;
+    padding: 10px;
+}
+.footer{
+    background: linear-gradient(180deg, #061a2f, #041425);
+    padding: 48px 80px 32px;
+    font-family: system-ui sans-serif;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo img{
+    height: 48px;
+}
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+}
+.footer-social p{
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.social-icons{
+    display: flex;
+    gap: 12px;
+    flex-wrap: nowrap;
+}
+.social-icons a{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer hr{
+    margin: 40px;
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+}
+.footer-copyright{
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.9;
+}
